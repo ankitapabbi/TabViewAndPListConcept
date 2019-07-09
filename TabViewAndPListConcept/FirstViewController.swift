@@ -11,7 +11,7 @@ import UIKit
 class FirstViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     @IBOutlet weak var tblColors: UITableView!
-    
+    // variables
     var colorsArray = [String]()
     override func viewDidLoad() {
         super.viewDidLoad()
